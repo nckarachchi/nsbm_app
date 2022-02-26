@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/email.01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mad"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="175dp"
+        android:layout_height="71dp"
+        android:text="NSBM"
+        android:textColor="@color/purple_700"
+        android:textColorHighlight="@color/purple_700"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green Univarsity"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email.01"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_dialog_email"
+        android:drawablePadding="12dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password.01"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_lock_lock"
+        android:drawablePadding="12dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:password="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/button.01"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="210dp"
+        android:background="#30e6"
+        android:backgroundTint=""
+        android:backgroundTintMode="add"
+        android:foregroundTint="#120F0F"
+        android:text="LogIn"
+        android:textColor="#F0F6F5"
+        android:textColorHighlight="#AC2323"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/password.01"
+        app:layout_constraintStart_toStartOf="@+id/password.01"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="329dp"
+        android:layout_height="40dp"
+        android:background="#75fabc"
+        android:text="Create New Account"
+
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="234dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="56dp"
+        android:text="Fogot Password"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="59dp"
+        android:layout_height="31dp"
+        app:srcCompat="@android:drawable/checkbox_off_background"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <ImageButton
+        android:id="@+id/facebook_btn"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:rotationX="4"
+        app:srcCompat="@drawable/faacebook_jpg"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <ImageButton
+        android:id="@+id/instagram_btn"
+        android:layout_width="43dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/instagram_jpg"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <ImageButton
+        android:id="@+id/twitter_btn"
+        android:layout_width="46dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/twitter_jpg"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

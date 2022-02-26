@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nsbm_2_page_jpg"
+    tools:context=".Create_New_Account">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/batch_01"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:hint="Batch"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/emaail_02"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <TextView
+        android:id="@+id/cra.01"
+        android:layout_width="359dp"
+        android:layout_height="89dp"
+        android:text="welcome to the NSBM family"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cre_password"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/batch_01"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/emaail_02"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:hint="E Mail"
+        android:textColor="@color/black"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/last name"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/last name"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:hint="Last Name"
+        android:textColor="@color/black"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#0C0C0C"
+        android:textColorLink="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/frist_name"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/frist_name"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:hint="Frist Name"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright © 2019 - NSBM Green University Town - All Rights Reserved. Concept, Design & Development by Web Lankan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="104dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="76dp"
+        android:text="Submit"
+        app:layout_constraintTop_toTopOf="@+id/cre_password"
+        tools:layout_editor_absoluteX="211dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
