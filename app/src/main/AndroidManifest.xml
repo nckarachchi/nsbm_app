@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nsbm_app">
         <activity
+            android:name=".cc"
+            android:exported="false" />
+        <activity
             android:name=".Create_New_Account"
             android:exported="false" />
         <activity
